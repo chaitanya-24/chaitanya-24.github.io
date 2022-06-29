@@ -1,4 +1,6 @@
 import React from "react";
+import { FaDatabase, FaServer } from "react-icons/fa"
+import { SiNextdotjs, SiTailwindcss } from "react-icons/si"
 
 const Work = () => {
   return (
@@ -31,6 +33,13 @@ const Work = () => {
           </span>
           <span
             data-cooltipz-dir="left"
+            aria-label="Tailwind CSS"
+            className="col-4 col-lg-2"
+          >
+            <i class="social-icon work-icon"><SiTailwindcss style={{height:"40"}} /></i>
+          </span>
+          <span
+            data-cooltipz-dir="left"
             aria-label="JAVASCRIPT"
             className="col-4 col-lg-2"
           >
@@ -42,6 +51,13 @@ const Work = () => {
             className="col-4 col-lg-2"
           >
             <i class="social-icon work-icon fab fa-react"></i>
+          </span>
+          <span
+            data-cooltipz-dir="left"
+            aria-label="Next JS"
+            className="col-4 col-lg-2"
+          >
+            <i class="social-icon work-icon"><SiNextdotjs style={{height:"40"}} /></i>
           </span>
           <span
             data-cooltipz-dir="left"
@@ -70,6 +86,20 @@ const Work = () => {
             className="col-4 col-lg-2"
           >
             <i class="social-icon fab fa-node work-icon"></i>
+          </span>
+          <span
+            data-cooltipz-dir="left"
+            aria-label="Express JS"
+            className="col-4 col-lg-2"
+          >
+            <i class="social-icon work-icon"><FaServer style={{height:"40"}} /></i>
+          </span>
+          <span
+            data-cooltipz-dir="left"
+            aria-label="Mongo JS"
+            className="col-4 col-lg-2"
+          >
+            <i class="social-icon work-icon"><FaDatabase style={{height:"40"}} /></i>
           </span>
         </main>
       </section>

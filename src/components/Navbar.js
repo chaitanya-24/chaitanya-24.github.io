@@ -14,9 +14,11 @@ const Navbar = () => {
           class="navbar navbar-expand-lg navbar-light"
         >
           <div class="container">
-            <a class="navbar-brand" href="#">
-              &lt;CS /&gt;
-            </a>
+            <Link class="active" aria-current="page" to="/">
+              <a class="navbar-brand" href="#">
+                &lt;CS /&gt;
+              </a>
+            </Link>
             <button
               class="navbar-toggler"
               type="button"

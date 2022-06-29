@@ -19,16 +19,16 @@ const Header = () => {
             </p>
 
             <section className="socials">
-              <a href="https://www.linkedin.com/in/chaitanya-sawant-691799187/" target="_blank">
+              <a href="https://www.linkedin.com/in/chaitanya-sawant-691799187/" target="_blank" rel="noreferrer">
                 <i class="social-icon fab fa-linkedin"></i>
               </a>
-              <a href="https://twitter.com/ChaitanyaS__" target="_blank">
+              <a href="https://twitter.com/chaitanyasawnt" target="_blank" rel="noreferrer">
                 <i class="social-icon fab fa-twitter"></i>
               </a>
-              <a href="https://github.com/chaitanya-24" target="_blank">
+              <a href="https://github.com/chaitanya-24" target="_blank" rel="noreferrer">
                 <i class="social-icon fab fa-github"></i>
               </a>
-              <a href="https://www.instagram.com/chaitanya.sawant24/" target="_blank">
+              <a href="https://www.instagram.com/chaitanya42_/" target="_blank" rel="noreferrer">
                 <i class="social-icon fab fa-instagram"></i>
               </a>
             </section>
@@ -45,7 +45,7 @@ const Header = () => {
           >
             <img
               className="img-fluid"
-              src="./images/headerImg.svg"
+              src={process.env.PUBLIC_URL + "/images/headerImg.svg"}
               alt="headerImage"
             />
           </section>

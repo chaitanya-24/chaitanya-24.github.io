@@ -24,7 +24,7 @@ const Contact = () => {
           alert("FAILED...", error);
         }
       );
-      form.current.reset();
+    form.current.reset();
   };
 
   return (
@@ -41,7 +41,7 @@ const Contact = () => {
               data-aos-easing="ease-in-sine"
               data-aos-duration="1500"
               data-aos-once="true"
-              src="./images/contactImg.svg"
+              src={process.env.PUBLIC_URL + "/images/contactImg.svg"}
               alt="ContactImg"
             />
           </div>
