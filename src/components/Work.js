@@ -96,7 +96,7 @@ const Work = () => {
           </span>
           <span
             data-cooltipz-dir="left"
-            aria-label="Mongo JS"
+            aria-label="Mongo DB"
             className="col-4 col-lg-2"
           >
             <i class="social-icon work-icon"><FaDatabase style={{height:"40"}} /></i>
