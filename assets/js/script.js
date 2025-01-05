@@ -174,7 +174,7 @@ if (currentTheme) {
 // Typed.js initialization
 document.addEventListener('DOMContentLoaded', function() {
     var typed = new Typed('#typed', {
-        strings: ['Machine Learning Engineer', 'Tech Writer'],
+        strings: ['Machine Learning Engineer'],
         typeSpeed: 50,
         backSpeed: 50,
         loop: true

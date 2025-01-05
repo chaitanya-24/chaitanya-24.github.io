@@ -62,7 +62,7 @@
       }
     ],
     "about": {
-      "title": "Machine Learning Engineer & Tech Writer",
+      "title": "Machine Learning Engineer",
       "description": "Passionate about leveraging AI and machine learning to solve real-world problems. With over 5 years of experience in the field, I've worked on various projects ranging from natural language processing to computer vision. I'm dedicated to staying at the forefront of AI advancements and sharing knowledge through technical writing and open-source contributions.",
       "skills": ["Python", "TensorFlow", "PyTorch", "SQL", "AWS", "Docker", "React", "Node.js", "Scikit-learn", "Git"],
       "education": [
