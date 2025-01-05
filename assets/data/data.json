@@ -1,0 +1,86 @@
+{
+    "experience": [
+      {
+        "title": "AI/ML Intern",
+        "company": "TIH-IOT, IIT Bombay",
+        "period": "Jan 2024 - Apr 2024",
+        "description": "Developed a deep learning model for agricultural forecasting, achieving 90% accuracy in crop yield predictions. Automated ML pipelines, reducing training time, and integrated models via RESTful APIs for real-time data processing."
+      },
+      {
+        "title": "Data Science Intern",
+        "company": "BCG X",
+        "period": " Oct 2023– Nov 2023",
+        "description": "Engineered predictive models for sales forecasting, improving accuracy. Conducted exploratory data analysis on large datasets, uncovering key trends to inform strategic business decisions."
+      }
+    ],
+    "education": [
+    {
+      "degree": "Master of Science in Computer Science",
+      "year": "2022 - 2024",
+      "institution": "University of Mumbai",
+      "description": "Specialized in Machine Learning and Artificial Intelligence."
+    },
+    {
+      "degree": "Bachelor of Science in Computer Science",
+      "year": "2018 - 2021",
+      "institution": "University of Mumbai",
+      "description": "Graduated with honors. Participated in various coding competitions and hackathons."
+    }
+  ],
+    "projects": [
+      {
+        "title": "MedSearch AI",
+        "description": "The Medical-RAG project is a Retrieval-Augmented Generation system designed to extract and provide accurate, context-aware responses from a 600+ page medical book. It combines advanced document retrieval techniques with powerful language models to deliver real-time, insightful answers via an interactive web interface.",
+        "link": "https://github.com/chaitanya-24/ai-project-hub/tree/master/Medical-RAG"
+      },
+      {
+        "title": "Neural-Powered Content Intelligence Platform",
+        "description": "The project is an end-to-end system that identifies and classifies hateful content using advanced machine learning techniques. It features a modular pipeline for data preprocessing, model training, and evaluation, combined with an intuitive web interface for real-time text analysis, ensuring scalability.",
+        "link": "https://github.com/chaitanya-24/Hate_Speech"
+      },
+      {
+        "title": "ML-Powered Quality Assurance System",
+        "description": "The system predicts wine quality using chemical properties through a modular ML pipeline. It integrates MLflow for experiment tracking and model deployment and includes a user-friendly web interface for interaction. The design ensures scalability, reproducibility, and efficient performance.",
+        "link": "https://github.com/chaitanya-24/Wine-Quality-Prediction-with-MLflow"
+      }
+    ],
+    "blogs": [
+      {
+        "title": "Automating Machine Learning Pipelines with Apache Airflow: A Beginner's Guide",
+        "summary": "Learn to automate machine learning workflows using Apache Airflow in this beginner-friendly guide.",
+        "link": "https://medium.com/gopenai/automating-machine-learning-pipelines-with-apache-airflow-a-beginners-guide-8dc1cfaebb09"
+      },
+      {
+        "title": "From Messy Text to Model-Ready Data: A Guide to NLP Preprocessing",
+        "summary": "Guide to NLP preprocessing: cleaning, tokenization, stemming, lemmatization, and preparing text data for machine learning models.",
+        "link": "https://medium.com/gopenai/from-messy-text-to-model-ready-data-a-guide-to-nlp-preprocessing-51323efc3876"
+      },
+      {
+        "title": "ModernBERT in Simple Terms",
+        "summary": "ModernBERT explained: Advanced NLP model for understanding context, improving language tasks, and enhancing AI communication.",
+        "link": "https://nettle-stoat-0c7.notion.site/ModernBERT-in-Simple-Terms-165185f01f4080c5bd62ddaf79a1ef99"
+      }
+    ],
+    "about": {
+      "title": "Machine Learning Engineer & Tech Writer",
+      "description": "Passionate about leveraging AI and machine learning to solve real-world problems. With over 5 years of experience in the field, I've worked on various projects ranging from natural language processing to computer vision. I'm dedicated to staying at the forefront of AI advancements and sharing knowledge through technical writing and open-source contributions.",
+      "skills": ["Python", "TensorFlow", "PyTorch", "SQL", "AWS", "Docker", "React", "Node.js", "Scikit-learn", "Git"],
+      "education": [
+        {
+          "degree": "M.S. in Computer Science",
+          "institution": "Tech University",
+          "year": "2016"
+        },
+        {
+          "degree": "B.S. in Mathematics",
+          "institution": "Science College",
+          "year": "2014"
+        }
+      ],
+      "certifications": [
+        "AWS Certified Machine Learning - Specialty",
+        "TensorFlow Developer Certificate",
+        "Deep Learning Specialization - Coursera"
+      ]
+    }
+  }
